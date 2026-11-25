@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="hb-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <!-- Hexagon honeycomb badge -->
+  <path d="M32 3 L57 17.5 L57 46.5 L32 61 L7 46.5 L7 17.5 Z" fill="url(#hb-grad)" stroke="#132a24" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- Inner subtle hex ring -->
+  <path d="M32 8.5 L52 20 L52 44 L32 55.5 L12 44 L12 20 Z" fill="none" stroke="#fffbeb" stroke-opacity="0.45" stroke-width="1.5" stroke-linejoin="round"/>
+  <!-- Bee wings -->
+  <ellipse cx="22" cy="24" rx="8.5" ry="5.5" transform="rotate(-28 22 24)" fill="#fffbeb" stroke="#132a24" stroke-width="2.2"/>
+  <ellipse cx="42" cy="24" rx="8.5" ry="5.5" transform="rotate(28 42 24)" fill="#fffbeb" stroke="#132a24" stroke-width="2.2"/>
+  <!-- Bee body -->
+  <ellipse cx="32" cy="36" rx="10" ry="12.5" fill="#132a24"/>
+  <!-- Honey stripes -->
+  <path d="M23 32 Q32 35 41 32" fill="none" stroke="#fbbf24" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M23.5 39 Q32 42 40.5 39" fill="none" stroke="#fbbf24" stroke-width="3.2" stroke-linecap="round"/>
+  <!-- Bee head & antennae -->
+  <circle cx="32" cy="22" r="5.5" fill="#132a24"/>
+  <path d="M29 17.5 Q26 12 22.5 13" fill="none" stroke="#132a24" stroke-width="2" stroke-linecap="round"/>
+  <path d="M35 17.5 Q38 12 41.5 13" fill="none" stroke="#132a24" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="22.5" cy="13" r="1.6" fill="#132a24"/>
+  <circle cx="41.5" cy="13" r="1.6" fill="#132a24"/>
+</svg>
